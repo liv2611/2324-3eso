@@ -1,0 +1,98 @@
+<head> 
+   <meta charset="utf-8">
+   <title>estilo ejercicio 2</title> <!--este archivo sirve para darle el estilo completo a la pagina, tanto el tamaño como las letras en general. es el estilo de la pagina-->
+   <style>
+ * { 
+        margin:0;
+        padding:0;
+      }
+      a:link, a:visited, a:hover, a:active {
+        color:#0f0;
+        font-size:16px;
+      }
+      #imagen { 
+      float:right;
+      }
+      #imagen2 {
+      float:left;
+      }
+      ul2 {
+      font-family: "Times New Roman", Times, serif; <!--fuente de letra  -->
+      color:yellow
+      }
+      body {
+        background:#eee;
+        font-family:verdana;
+      }
+      h1 {
+      color:#c0c;
+      font-size:24px;
+      }
+      p3 {
+      font-size:20px;
+      color: yellow
+      }
+      p {
+      font-size:16px;
+      }
+      p2 {
+      font-size:24px;
+      color: fffaf0
+      }
+      ul {
+      list-style-type:none;
+      color: blue
+      }
+      #cabecera {
+        color:#ff9;
+        background-color:#000;
+        padding:10px;
+      }
+      #contenedor  { 
+        font-family: "lucida handwriting", cursive;
+        margin:0 auto;
+        width:800px;
+      }
+      #contenido {
+        font-family: georgia, serif;
+        background-color:purple;
+        float:left;
+        height:600px;
+        padding:10px;
+        width:640px;
+      }
+      #menu {
+        font-family: "Times New Roman", Times, serif;
+        color:blue;
+        background-color:grey;
+        float:left;
+        height:580px;
+        padding:20px;
+        width:100px;
+      }
+      #pie {
+        font-family: "Times New Roman", Times, serif; 
+        background-color:#bbb;
+        clear:both;
+        color:#900;
+        padding:10px;
+        text-align:center;
+      }
+      #contenido2 {
+        font-family: georgia, serif;
+        background-color:fffaf0;
+        float:left;
+        height:600px;
+        padding:10px;
+        width:640px;
+      }
+      p4 {
+      font-size:26px;
+      color: purple
+      }
+      p5 {
+      font-size:24px;
+      color: 006400
+      }
+    </style>
+  </head>

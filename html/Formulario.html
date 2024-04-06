@@ -1,0 +1,55 @@
+<html lang="es-ES">
+ <head> 
+ <link rel="stylesheet" href="../css/estilo.css"><!-- este es el estilo -->
+  </head>
+  <body>
+    <div id="contenedor"><!--conjunto de espacio que crea la pagina web  -->
+      <div id="cabecera"><!-- es lo que esta arriba de la pagina  -->
+        <p class=".p1">La Madrugá sevillana</p><!-- este es el titulo y lo hemos puesto en un determinado estilo -->
+      </div>
+     
+     
+     
+      <div id="menu"><!-- va despues de la cabecera, la separa de la demas informacion sirve para desplazarse por la pagina web -->
+        <ul>
+          <li><a href="../index.html">Inicio</a></li><!-- en estos apartados, cada uno lleva a un lugar distinto de la pagina -->
+          <li><a href="Silencio.html">Silencio</a></li>
+          <li><a href="Macarena.html">Macarena</a></li>
+          <li><a href="Gran Poder.html">Gran Poder</a></li>
+        </ul>
+      </div>
+     
+     
+     
+      <div id="contenido"><!--es donde va toda la informacion y esta en el medio   -->
+    <form action="procesar-datos.php" method="post"><!--procesan los datos    -->
+      Usuario:
+      <br>
+      <input type="text" name="campo_de_texto"><!--esto es para poner el nombre y que tu lo pongas en el apartado correspondiente  -->
+      <br>
+      Seleccione su apartado:
+      <br>
+      <select name="lista_de_seleccion"><!--esto es para que elijas lo que te venga mejor, hemos puesto 3 opciones    -->
+        <option value="opcion1">Informatica</option>
+        <option value="opcion2">Historia</option>
+        <option value="opcion3">Imagenes</option>
+      </select>
+      <br>
+      Quejas:
+      <br>
+      <textarea name="area_de_texto" rows="3" cols="50">Introducir texto texto.</textarea>
+        <br><br>
+      <form action="procesar-datos.php" method="post">
+      <label>Contraseña: <input type="password" name="clave"></label><!--esto es para tu poner la contraseña, pero cuando tu la pones, la contraseña sale oculta -->
+      <br><br>
+      <button type="reset">Resetear</button><!--este es el boton de reseteo, tu le das y se resetean todos los datos que has puesto  -->
+      <button type="submit">Enviar</button><!--este es un boton que cuando tu le das te sale error, pero es para enviar el formulario  -->
+    </form>
+
+      </div>
+      <div id="pie"><!--se localiza abajo de la pantalla y sirve para poner nuestros datos personales -->
+        <p>Sergio y Olivia-Robotica-3ESO-Ejercicio 2</p><!--son nuestros datos que se ponen en el pie de pagina  -->
+      </div>
+    </div>
+  </body>
+</html>
